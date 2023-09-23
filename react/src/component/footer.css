@@ -1,0 +1,141 @@
+/* Import Google Fonts (if needed) */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0; /* Add margin to the body */
+  }
+
+  .container2 {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0; /* Remove default padding */
+  }
+
+  .footer {
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+
+  .footer-col {
+    width: max-content;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+
+  .footer-col h4 {
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(17, 115, 188);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer-col ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+
+  }
+
+  .footer-row .social-links {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  .footer-row .social-links a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 15px 15px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: larger;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+
+  .footer-row .social-links a:hover {
+    color: #24262b;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+
+  .footer-col .playimg {
+    width: 220px;
+  }
+
+  .developers {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .developers a {
+    color: rgb(17, 115, 188);
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  /* Responsiveness */
+  @media screen and (max-width: 1100px) {
+    .footer-col {
+      max-width: 50%;
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1255px) {
+    .footer-col .playimg {
+      width: 160px;
+      transition: all 0.3s ease;
+    }
+  }
+
+  @media (max-width: 610px) {
+    .footer-col {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }

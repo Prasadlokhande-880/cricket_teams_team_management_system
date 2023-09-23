@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.mainDiv_ourchempions{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top:60px;
+}
+
+.ourchempions_heading{
+    width: 76%;
+}
+
+.ourchempions_heading p{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(7, 7, 78);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.hight_light{
+    background-color: rgb(247, 247, 247);
+}

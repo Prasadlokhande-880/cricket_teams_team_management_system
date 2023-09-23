@@ -1,0 +1,66 @@
+.mainFounder{
+    height: 620px;
+
+}
+.main_founder_info{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    background-image: url(../../public/img/paint-canvas.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px 20px ;
+    position: relative;
+    height: 500px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.founder_img{
+    position: absolute;
+    right: 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.founder_img img{
+    width: 350px;
+}
+
+.main_founderInfo_header{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(7, 7, 78);
+}
+
+.main_founderInfo_subinfo{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main_founderInfoMore{
+    font-size: 18px;
+    background-color: rgb(5, 5, 53);
+    color: white;
+    padding: 10px 10px 10px 10px ;
+    margin: 20px 20px 20px 20px ;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.main_founderInfoMore:hover{
+    box-shadow: 5px 5px 5px rgb(68, 66, 66);
+}

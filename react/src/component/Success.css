@@ -1,0 +1,132 @@
+.Ready_to_join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+}
+.Ready_to_join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background-image: url(../../public/img/5559852.jpg);
+  }
+
+  .Ready_to_join-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Ready_to_join-content p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+
+  .Ready_to_join-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 800;
+    margin: 5px 5px;
+    color:  rgb(255, 255, 255);
+  }
+
+  .Ready_to_join-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .Ready_to_join-content-btn button {
+    background-color:  rgb(0, 14, 67);
+    color: #fff;
+    border:  solid aliceblue 1px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all 0.3s;
+  }
+
+  .Ready_to_join-content-btn button:hover {
+    box-shadow: 5px 5px 10px rgb(167, 204, 237);
+}
+
+.Ready_to_join-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+
+.Ready_to_join-content p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.Ready_to_join-content h3 {
+    font-family:'Manrope', sans-serif;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 800;
+    margin: 5px 5px;
+}
+
+.Ready_to_join-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 650px) {
+    .Ready_to_join{
+        flex-direction: column;
+    }
+
+    .Ready_to_join-content-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Ready_to_join{
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .Ready_to_join-content h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .Ready_to_join-content button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Ready_to_join-content h3 {
+        font-size: 35px;
+    }
+}

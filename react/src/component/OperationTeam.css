@@ -1,0 +1,83 @@
+.OperationTeam{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.OperationTeam_header{
+    padding:10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(31, 17, 88);
+}
+
+.imgDiv img{
+    width: 100%;
+}
+
+.OperationTeam{
+    width: 60%;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.OperationTeam button{
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(16, 9, 46);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.OperationTeam button:hover{
+    box-shadow: gray 5px 5px 5px ;
+}
+
+.blockDispaly {
+    width: 95%;
+    min-height: 400px;
+    background-color: rgb(219, 215, 215);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blockDispaly p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .displaysave {
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(100%);
+    margin-top: 20px;
+    margin-bottom: 20px;/* Add the backdrop-filter for blur */
+  }
+
+  .displaysave h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+  }
+
+  .mainsaving button{
+    margin: 10px;
+  }

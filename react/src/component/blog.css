@@ -1,0 +1,63 @@
+
+.blogmainDiv{
+    margin: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px ;
+}
+
+.blogheading{
+    padding: 10px 10px 10px 10px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(7, 7, 78);
+}
+
+.blogSubdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 10px 10px 10px ;
+}
+
+
+.blogdiv{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(214, 234, 251);
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.blogdiv:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+
+
+.blogdivimg img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.infoblog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.infoblog p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+    color:  rgb(7, 7, 78);
+}
+
+.infoblog p {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}

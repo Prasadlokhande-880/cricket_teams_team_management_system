@@ -1,0 +1,21 @@
+.slider-info-item{
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    height: 150px;
+    padding: 15px 15px 15px 15px;
+   background-color: blueviolet;
+   border-radius: 20px;
+}
+
+i{
+    font-size: 25px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.info_slider_first{
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
