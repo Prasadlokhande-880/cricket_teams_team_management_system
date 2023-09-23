@@ -1,0 +1,6 @@
+# cricket_teams_team_management_system<img width="1280" alt="Screenshot 2023-09-23 at 14 48 10" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/19c611ba-35da-4ec9-bbe5-e52c22031b19">
+<img width="1280" alt="Screenshot 2023-09-23 at 14 48 20" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/e9751104-10e1-4b94-b8c4-ef67aa3f9d66">
+<img width="1280" alt="Screenshot 2023-09-23 at 14 48 24" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/ff3ef18e-e4d6-4a22-8837-73547b7a968c">
+<img width="1280" alt="Screenshot 2023-09-23 at 14 48 27" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/47934d98-91ec-4c1f-8a90-da98c8b4da5e">
+<img width="1280" alt="Screenshot 2023-09-23 at 14 48 29" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/795c58d4-a487-4d15-b608-bd08091f44fb">
+<img width="1280" alt="Screenshot 2023-09-23 at 14 48 32" src="https://github.com/Prasadramkrishnalokhande/cricket_teams_team_management_system/assets/112815540/7c147572-f5d8-432f-af0a-89510f24eee8">
